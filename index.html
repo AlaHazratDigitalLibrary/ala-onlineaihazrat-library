@@ -3,22 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>আলা হযরত ডিজিটাল লাইব্রেরি</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, "Noto Sans Bengali", sans-serif;
+            background: #f4f7f6;
+            color: #222;
+        }
+
+        header {
+            background: #075e54;
+            color: white;
+            text-align: center;
+            padding: 45px 15px;
+        }
+
+        header h1 {
+            margin: 0 0 12px;
+            font-size: 30px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 17px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 35px auto;
+            padding: 0 15px;
+        }
+
+        .search-box {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px #ddd;
+            margin-bottom: 25px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .book {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px #ddd;
+        }
+
+        .book h2 {
+            margin-top: 0;
+            color: #075e54;
+        }
+
+        .book a {
+            display: inline-block;
+            background: #075e54;
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .book a:hover {
+            background: #064c44;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            background: #075e54;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>আলা হযরত ডিজিটাল লাইব্রেরি</h1>
+<header>
+    <h1>📚 আলা হযরত ডিজিটাল লাইব্রেরি</h1>
+    <p>ইমাম আহমদ রযা খান রহ.-এর কিতাবসমূহের ডিজিটাল সংগ্রহ</p>
+</header>
 
-    <p>
-        ইমাম আহমদ রযা খান রহ.-এর কিতাবসমূহের ডিজিটাল সংগ্রহ
-    </p>
+<div class="container">
 
-    <hr>
+    <div class="search-box">
+        <input
+            type="text"
+            placeholder="🔍 কিতাব বা বিষয় খুঁজুন..."
+        >
+    </div>
 
-    <h2>📚 কিতাবসমূহ</h2>
+    <div class="book">
+        <h2>📖 ফতোয়া-ই-রযভীয়া</h2>
 
-    <p>শীঘ্রই এখানে কিতাবের তালিকা যুক্ত করা হবে।</p>
+        <p>
+            <strong>খণ্ড:</strong> ৮
+        </p>
+
+        <p>
+            فتاوى رضوية — جلد 8
+        </p>
+
+        <a href="fatawa-razawiyya-jild-8.pdf" target="_blank">
+            📄 কিতাব খুলুন
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    <p>আলা হযরত ডিজিটাল লাইব্রেরি</p>
+    <p>© 2026</p>
+</footer>
 
 </body>
 </html>
